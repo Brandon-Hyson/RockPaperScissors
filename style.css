@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  background: linear-gradient(to left bottom, lightsalmon, lightyellow, lightsalmon);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, .3);
+  padding:20px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.3);
+  border-radius: 25px;
+  height: 85%;
+  width: 85%;
+  text-align: center;
+  color: darkgreen;
+}
+
+
+#opponent-choice {
+  mix-blend-mode: darken;
+  width: 240px;
+  height: 240px;
+  background-color: lightcoral;
+  margin-top: 10px;
+}
+
+#your-choice {
+  mix-blend-mode: darken;
+  width: 240px;
+  height: 240px;
+  background-color: lightblue;
+  margin-top: 10px;
+}
+
+#choices {
+  mix-blend-mode: darken;
+  width: 240px;
+  height: 80px;
+  background: none;
+  background-color: green;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#choices img {
+  width: 80px;
+  height: 80px;
+}
